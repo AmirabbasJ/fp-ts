@@ -604,3 +604,18 @@ export {
    */
   zero
 }
+
+export * as A from './Array'
+export * as T from './Task'
+export * as E from './Either'
+export * as O from './Option'
+export * as R from './Reader'
+export * as IO from './IO'
+export * as S from './State'
+export * as TE from './TaskEither'
+export * as IOE from './IOEither'
+export * as RE from './ReaderEither'
+export * as NA from './NonEmptyArray'
+export * as TO from './TaskOption'
+export * as IOO from './IOOption'
+export * as RT from './ReaderTask'
