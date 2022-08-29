@@ -39,7 +39,7 @@ A distinctive feature of `fp-ts` with respect to other functional libraries is i
 To install the stable version:
 
 ```
-npm install fp-ts
+npm install @amirabbasj/fp-ts
 ```
 
 Make sure to always have a single version of `fp-ts` installed in your project. Multiple versions are known to cause `tsc` to hang during compilation. You can check the versions currently installed using `npm ls fp-ts` (make sure there's a single version and all the others are marked as `deduped`).
@@ -55,6 +55,11 @@ Make sure to always have a single version of `fp-ts` installed in your project. 
 | <= 1.14.4       | 2.8+ (\*)                     |
 
 (\*) If you are running `< typescript@3.0.1` you have to polyfill the `unknown` type. You can use [unknown-ts](https://github.com/gcanti/unknown-ts) as a polyfill.
+
+# diff
+
+the only diff is that there are custom import names that shortens your codes like you can write `T` and get auto-import for importing Task as T
+
 
 # Documentation
 
